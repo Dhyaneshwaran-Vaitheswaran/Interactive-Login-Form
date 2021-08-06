@@ -1,0 +1,78 @@
+/*#48c6ef → #6f86d6*/
+
+body{
+  background-image: linear-gradient(to right, #48c6ef, #6f86d6);
+}
+
+.loginformbox{
+  background-color: #ffffff;
+  height: 480px;
+  width: 350px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 3%;
+  padding: 5px;
+}
+
+h1{
+  font-family: Roboto;
+  font-weight: bolder;
+  font-size: 2.3rem;
+  opacity: 0.8;
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-family: Roboto;
+  padding: 5px;
+  margin: 4%;
+  border-bottom: 1px solid #6f86d6;
+}
+
+button{
+  font-family: Roboto;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: cornflowerblue;
+  width: 80%;
+  padding: 15px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+button:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.pass{
+  margin-right: 110px;
+  margin-top: 0px;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  color: #4d93aa;
+}
+
+.pass:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.sign_up{
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  color: #4d93aa;
+}
+
+.sign_up:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
